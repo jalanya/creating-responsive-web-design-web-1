@@ -4,6 +4,8 @@
 
 body { font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 300; color: #555; margin: 0; padding: 0; }
 
+#page { max-width: 1200px; margin: 0 auto; position: relative; }
+
 /* Text */
 
 h1 { margin: 0 0 1em 0; font-size: 2.8em; font-weight: 700; }
@@ -15,3 +17,7 @@ p { margin: 0 0 1em 0; }
 
 a { color: #007eff; }
 a:visited { color: #65b1ff; }
+
+/* Header */
+
+header { height: 430px; background: #cf0004 url(../images/banner_1200.jpg) no-repeat center bottom; position: relative; }
