@@ -41,4 +41,26 @@ Then the last property we're going to set is going to be position. We'll set a p
 
 `position: relative`: This means any items positioned inside of the page element will be positioned in relation to this. Now this will become important later one because we're going to reposition the navigation element, and the navigation is not inside of the header, which also has a position relative, so the navigation will position in relation to the page
 
-Take a look att this example [CSS Positioning - Relative Positioning](https://codepen.io/jalanya/pen/pLEzJJ)
+Take a look at this example [CSS Positioning - Relative Positioning](https://codepen.io/jalanya/pen/pLEzJJ)
+
+
+## Creating the Style and Layout with CSS: Style the Logo and Hero Item
+
+```
+header a.logo {
+  position: absolute;
+  display: block;
+  width: 160px;
+  height: 66px;
+  background: url(../images/logo.svg) no-repeat 0 0;
+  background-size: contain;
+  top: 15px;
+  left: 20px;
+}
+```
+
+We're going to set a property called `background-size`. We're going to set this to `contain`. This means the background graphic is going to be sized to fit within the height and width, and since we set the height and width to a proportion based on the size of the logo.svg, which is 160 x 66, this will proportionally scale and fill the entire element with the logo. 
+
+[background-size](https://developer.mozilla.org/en-US/docs/Web/CSS/background-size)
+
+
