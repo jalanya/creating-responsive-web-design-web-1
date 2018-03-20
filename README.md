@@ -63,4 +63,19 @@ We're going to set a property called `background-size`. We're going to set this 
 
 [background-size](https://developer.mozilla.org/en-US/docs/Web/CSS/background-size)
 
+## Creating the Style and Layout with CSS: Creating the Button Style
 
+[transition](https://developer.mozilla.org/en-US/docs/Web/CSS/transition) |
+[Using CSS transation](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
+
+
+### **Functional notation**: **rgb(R, G, B[, A])** or **rgba(R, G, B, A)**
+R (red), G (green), and B (blue) can be either `<integer>`s or `<percentage>`s, where the number 255 corresponds to 100%. A (alpha) can be a `<number>` between 0 and 1, or a `<percentage>`, where the number 1 corresponds to 100% (full opacity).
+
+```
+/* Functional syntax */
+rgba(51, 170, 51, .1)    /*  10% opaque green */ 
+rgba(51, 170, 51, .4)    /*  40% opaque green */ 
+rgba(51, 170, 51, .7)    /*  70% opaque green */ 
+rgba(51, 170, 51,  1)    /* full opaque green */ 
+```

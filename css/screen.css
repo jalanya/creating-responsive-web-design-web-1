@@ -18,9 +18,14 @@ p { margin: 0 0 1em 0; }
 a { color: #007eff; }
 a:visited { color: #65b1ff; }
 
+a.btn { font-size: 1.2em; text-decoration: none; color: #fff; border: 1px solid #fff; padding: 4px 15px; 
+      transition: background-color .5s; }
+a.btn:hover { background-color: rgba(0,0,0,.3); }
+
 /* Header */
 
 header { height: 430px; background: #cf0004 url(../images/banner_1200.jpg) no-repeat center bottom; position: relative; }
+
 
 header a.logo {
   position: absolute;
