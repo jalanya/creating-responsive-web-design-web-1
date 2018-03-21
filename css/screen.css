@@ -47,6 +47,7 @@ header div.hero h1 { line-height: 1em; margin: 0 0 30px 0; color: #fff; }
 /* Section - All */
 
 section { padding: 0 30px; }
+section::after { content: ''; display: block; clear: both; }
 
 /* Section - Main */
 

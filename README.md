@@ -79,3 +79,14 @@ rgba(51, 170, 51, .4)    /*  40% opaque green */
 rgba(51, 170, 51, .7)    /*  70% opaque green */ 
 rgba(51, 170, 51,  1)    /* full opaque green */ 
 ```
+
+
+## Creating a Menu System with CSS: Clearing Floats with CSS Pseudo-elements
+
+The section of main is not going down to extend around all of the items that are floating inside of it, because whenever we float or position an element, the parent container will not extend to the height or width of the items inside.
+
+So what we need to do is have another HTML element in the page with a clear property so that the parent item will clear all of the floating items, but I don't want to add any HTML to our page; I only want the HTML to be as minimal as possible and only relate to the content. So we can use something called a pseudo-element inside of CSS to add a phantom HTML element to our sections
+
+```section::after { content: ''; display: block; clear: both; }```
+
+[Pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements) | [::after (:after)](https://developer.mozilla.org/en-US/docs/Web/CSS/::after) 
