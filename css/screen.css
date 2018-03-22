@@ -69,3 +69,17 @@ section.atmosphere { background-color: #c63; padding-top: 30px; padding-bottom: 
 
 section.atmosphere article { padding: 0 20px 0 515px; background: url(../images/photo_lounge.jpg) no-repeat 0 5px;
   min-height: 220px; }
+
+/* Section - How To */
+
+section.how-to { background-color: #eee9d9; position: relative; }
+
+section.how-to aside { width: 30%; float: left; margin-right: 10px; }
+
+section.how-to aside .content { padding: 30px 30px 20px 0; }
+
+section.how-to aside .content img { display: block; margin-bottom: 15px; width: 70%; }
+
+section.how-to aside .content h4 { margin-bottom: 0; }
+section.how-to aside .content p { margin-bottom: .5em; }
+section.how-to aside .content a { display: inline-block; color: #cc6633; font-weight: 700; }
