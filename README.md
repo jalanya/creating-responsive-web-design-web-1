@@ -81,7 +81,7 @@ rgba(51, 170, 51,  1)    /* full opaque green */
 ```
 
 
-## Creating a Menu System with CSS: Clearing Floats with CSS Pseudo-elements
+## Creating the Style and Layout with CSS: Clearing Floats with CSS Pseudo-elements
 
 The section of main is not going down to extend around all of the items that are floating inside of it, because whenever we float or position an element, the parent container will not extend to the height or width of the items inside.
 
@@ -92,6 +92,14 @@ So what we need to do is have another HTML element in the page with a clear prop
 [Pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements) | [::after (:after)](https://developer.mozilla.org/en-US/docs/Web/CSS/::after) 
 
 
-## Creating a Menu System with CSS: Adding Content with Pseudo-elements
+## Creating the Style and Layout with CSS: Adding Content with Pseudo-elements
 
 [Unicode symbols](https://en.wikipedia.org/wiki/Unicode_symbols)
+
+
+## Creating a Menu System with CSS: Re-positioning the Nav
+
+[What No One Told You About Z-Index](https://philipwalton.com/articles/what-no-one-told-you-about-z-index) | 
+[The Z-Index CSS Property: A Comprehensive Look](https://www.smashingmagazine.com/2009/09/the-z-index-css-property-a-comprehensive-look/) |
+[CSS/Properties/z-index](https://www.w3.org/wiki/CSS/Properties/z-index) | 
+[z-index example](https://codepen.io/jalanya/pen/OvgGoP)

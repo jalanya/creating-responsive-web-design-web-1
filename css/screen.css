@@ -28,6 +28,7 @@ header { height: 430px; background: #cf0004 url(../images/banner_1200.jpg) no-re
 
 
 header a.logo {
+  z-index: 1;
   position: absolute;
   display: block;
   width: 160px;
@@ -120,6 +121,19 @@ section.how-to blockquote::before {
 section.how-to blockquote p.quote::after { content: '\201d'; font-family: serif; }
 
 section.how-to blockquote p.credit::before { content: '\2014'; position: absolute; top: -1px; left: 0; }
+
+/* Navigation */
+
+nav {
+  background-color: rgba(0, 0,0,.65);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 50px 0 0 0;
+  width: 100%;
+}
+
+nav ul { list-style: none; margin: 0; padding: 0px; }
 
 /* Footer */
 
