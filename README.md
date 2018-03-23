@@ -90,3 +90,8 @@ So what we need to do is have another HTML element in the page with a clear prop
 ```section::after { content: ''; display: block; clear: both; }```
 
 [Pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements) | [::after (:after)](https://developer.mozilla.org/en-US/docs/Web/CSS/::after) 
+
+
+## Creating a Menu System with CSS: Adding Content with Pseudo-elements
+
+[Unicode symbols](https://en.wikipedia.org/wiki/Unicode_symbols)
