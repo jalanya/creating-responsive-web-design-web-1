@@ -103,3 +103,11 @@ So what we need to do is have another HTML element in the page with a clear prop
 [The Z-Index CSS Property: A Comprehensive Look](https://www.smashingmagazine.com/2009/09/the-z-index-css-property-a-comprehensive-look/) |
 [CSS/Properties/z-index](https://www.w3.org/wiki/CSS/Properties/z-index) | 
 [z-index example](https://codepen.io/jalanya/pen/OvgGoP)
+
+
+## Creating a Menu System with CSS: Styling the Nav List-items and Links
+
+Child selector `A > B`. Any element matching `B` that is a *direct child* of an element matching `A`.
+
+[Child combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/Child_selectors) | [Combinators and groups of selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Combinators_and_multiple_selectors) 
+| [Specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity) | [Specificity Calculator](https://specificity.keegan.st/)
