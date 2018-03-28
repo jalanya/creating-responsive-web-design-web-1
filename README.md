@@ -124,3 +124,26 @@ Now the biggest compatibility issue you're going to find is with touch-enabled P
 So what we can simply do is to add the aria-haspopup attribute and set that equal to true: `aria-haspopup="true"`. And what we need to do is apply that to any anchor tag inside of a list item that triggers a submenu. 
 
 [aria-haspopup](https://www.w3.org/TR/wai-aria/#aria-haspopup) | [WAI-ARIA](https://www.w3.org/TR/wai-aria/)
+
+
+## Creating a Menu System with CSS: Adding Indication Arrows
+
+Now to create the triangle, we're going to use a series of border properties. So to visually demonstrate this, if we had a really thick border on an element in CSS on the top, left, and bottom sides of a block, it would look something like this.
+
+<img src="images/doc/CSS-triangles-1.png" width="110" height="90" style="display: block;"/>
+
+If we were to set the **height and width to 0**, we would still have all of the sides of the borders being drawn.
+
+<img src="images/doc/CSS-triangles-2.png" width="110" height="90" style="display: block;"/>
+
+Now when borders intersect on the corners, they actually intersect at a 45-degree angle.
+
+<img src="images/doc/CSS-triangles-3.png" width="110" height="90" style="display: block;"/>
+
+So what we can do is define a left border for an arrow that points to the right, and then we can set transparency settings for the top and bottom borders.
+
+This will result in the browser only showing what is available on the left-hand border, and so this would result in the browser of us seeing only a portion of the left-hand border.
+
+<img src="images/doc/CSS-triangles-4.png" width="110" height="90" style="display: block;"/>
+
+[CSS Triangles example](https://codepen.io/jalanya/pen/YaeyNb) | [Attribute selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors) | [top](https://developer.mozilla.org/en-US/docs/Web/CSS/top) | [right](https://developer.mozilla.org/en-US/docs/Web/CSS/right)
