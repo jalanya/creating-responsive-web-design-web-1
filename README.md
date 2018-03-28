@@ -111,3 +111,16 @@ Child selector `A > B`. Any element matching `B` that is a *direct child* of an 
 
 [Child combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/Child_selectors) | [Combinators and groups of selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Combinators_and_multiple_selectors) 
 | [Specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity) | [Specificity Calculator](https://specificity.keegan.st/)
+
+
+## Creating a Menu System with CSS: Device Compatibility Options for Nav
+
+If you want to support submenus on the Android platform and allow people to select those with touch, make sure that the top-level item is linked to a pound sign `#` or hash symbol, which is a self-link. That way the Android browser won't navigate away, and then somebody can make a secondary choice.
+
+Now on the iOS platform, touchstart also activates a hover, just like on Android; however, if you tap the link a second time, the browser will then navigate away. This means on the iOS platform, you can have your top level navigation items linked to a page in addition to having them trigger the submenu.
+
+Now the biggest compatibility issue you're going to find is with touch-enabled PCs. These particular devices do not activate CSS hover classes based on touch. So when you first tap on the navigation items, nothing's going to happen. If they're hyperlinked, you'll go to the hyperlink, but there's no way to activate the submenu simply using the pseudo-class of hover in CSS. Now the browsers on these devices do support something called ARIA, which stands for Accessible Rich Internet Applications. And actually ARIA attributes are really quick and easy to add into our menu system, and since they use standard HTML attributes, this won't have any negative effect on other browsers and devices.
+
+So what we can simply do is to add the aria-haspopup attribute and set that equal to true: `aria-haspopup="true"`. And what we need to do is apply that to any anchor tag inside of a list item that triggers a submenu. 
+
+[aria-haspopup](https://www.w3.org/TR/wai-aria/#aria-haspopup) | [WAI-ARIA](https://www.w3.org/TR/wai-aria/)
