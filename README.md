@@ -147,3 +147,16 @@ This will result in the browser only showing what is available on the left-hand 
 <img src="images/doc/CSS-triangles-4.png" width="110" height="90" style="display: block;"/>
 
 [CSS Triangles example](https://codepen.io/jalanya/pen/YaeyNb) | [Attribute selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors) | [top](https://developer.mozilla.org/en-US/docs/Web/CSS/top) | [right](https://developer.mozilla.org/en-US/docs/Web/CSS/right)
+
+
+## Making Layout Adjustments for Large and Medium Screens: Making Minor Adjustments for Larger Screens
+
+```
+@media screen and (max-width: 1000px) {
+ ...
+}
+```
+
+Any rules that we put inside of here will take effect until the screen size is at a maximum of 1,000px. Once we're above 1,000px, these rules will no longer apply. But anything under 1,000px, these rules will also take effect, which means any rules that you redefine from up above will take precedence because they're being defined later in your CSS file.
+
+[Using media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) | [Targeting media features](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries#Targeting_media_features)
