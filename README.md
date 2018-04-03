@@ -160,3 +160,7 @@ This will result in the browser only showing what is available on the left-hand 
 Any rules that we put inside of here will take effect until the screen size is at a maximum of 1,000px. Once we're above 1,000px, these rules will no longer apply. But anything under 1,000px, these rules will also take effect, which means any rules that you redefine from up above will take precedence because they're being defined later in your CSS file.
 
 [Using media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) | [Targeting media features](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries#Targeting_media_features)
+
+## Making Adjustments for Small Screens: Moving the Navigation for Smaller Screens
+
+[background-position](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position)
