@@ -179,3 +179,25 @@ section.atmosphere article {
 We're going to change that to 300 pixels on the width and auto on the height and then let's come in here and change our min height properties. We're going to set min height now to initial. Now the reason that we don't need a minimum height anymore is because we're allowing 160 pixels vertically before the type starts. So, regardless of how much type there is we'll always have enough room at the top of the development to contain our graphic.
 
 [min-height](https://developer.mozilla.org/en-US/docs/Web/CSS/min-height) | [background-size](https://developer.mozilla.org/en-US/docs/Web/CSS/background-size)
+
+
+## Making Adjustments for Small Screens: Rearranging the How-to Section
+
+**inline-block elements:**
+- can exist within `inline` content.
+- have some box-model properties: `borders, margin, padding`, but its dimensions are `auto` by default, i.e. only as wide and high as its content.
+- does not begin on a new line but also has block level characteristics this means that we can manually set the width and height of the element and can still have them appear next to each other.
+
+If you want the perfect example of an inline-block element, look no further than the `<img>` element.
+
+**block elements:**
+- have box-model properties but its width is 100% by default.
+- can't be wrapped by `inline` elements.
+
+A good example of a block element is a `<div>`.
+
+**Cross-browserness:**
+Applying `display:inline-block` to `block` elements such as `<div>`s does not work in IE6 and 7. See: [The display declaration](https://quirksmode.org/css/css2/display.html)
+
+[CSS - block vs inline-block](https://codepen.io/jalanya/pen/qoMbOV) | 
+[display](https://developer.mozilla.org/en-US/docs/Web/CSS/display) | [The difference between display:inline-block and display:block](https://www.quora.com/Whats-the-difference-between-display-inline-block-and-display-block)
