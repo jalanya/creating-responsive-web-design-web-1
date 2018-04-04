@@ -164,3 +164,18 @@ Any rules that we put inside of here will take effect until the screen size is a
 ## Making Adjustments for Small Screens: Moving the Navigation for Smaller Screens
 
 [background-position](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position)
+
+
+## Making Adjustments for Small Screens: Rearranging the Main and Atmosphere Sections
+
+```
+section.atmosphere article { 
+  padding: 160px 20px 0px 0px; 
+  background-size: 300px auto; 
+  min-height: initial; 
+}
+```
+
+We're going to change that to 300 pixels on the width and auto on the height and then let's come in here and change our min height properties. We're going to set min height now to initial. Now the reason that we don't need a minimum height anymore is because we're allowing 160 pixels vertically before the type starts. So, regardless of how much type there is we'll always have enough room at the top of the development to contain our graphic.
+
+[min-height](https://developer.mozilla.org/en-US/docs/Web/CSS/min-height) | [background-size](https://developer.mozilla.org/en-US/docs/Web/CSS/background-size)
