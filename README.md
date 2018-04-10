@@ -201,3 +201,21 @@ Applying `display:inline-block` to `block` elements such as `<div>`s does not wo
 
 [CSS - block vs inline-block](https://codepen.io/jalanya/pen/qoMbOV) | 
 [display](https://developer.mozilla.org/en-US/docs/Web/CSS/display) | [The difference between display:inline-block and display:block](https://www.quora.com/Whats-the-difference-between-display-inline-block-and-display-block)
+
+
+## Making Adjustments for the Smallest Screens: Adjusting the Footer
+
+```
+footer div.content a {
+    display: inline-block; 
+    margin: 0 0 10px 0;
+    float: left;
+    clear: both;
+  }
+```
+
+`[css] inline-block is ignored due to the float. If 'float' has a value other than 'none', the box is floated and 'display' is treated as 'block'.`
+
+Specifies how a box should be floated. It may be set for any element, but only applies to elements that generate boxes that are not absolutely positioned.
+
+[float](https://developer.mozilla.org/en-US/docs/Web/CSS/float)
