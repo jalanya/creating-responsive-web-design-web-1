@@ -219,3 +219,7 @@ footer div.content a {
 Specifies how a box should be floated. It may be set for any element, but only applies to elements that generate boxes that are not absolutely positioned.
 
 [float](https://developer.mozilla.org/en-US/docs/Web/CSS/float)
+
+## Making Layout and Content Adjustments for Print: Linking a CSS File for Print
+
+[@page](https://developer.mozilla.org/en-US/docs/Web/CSS/%40page)

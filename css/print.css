@@ -1,7 +1,6 @@
 /* CSS Document for Print */
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,700,300);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,700,700i');
 
-
-
+@page { margin: .5cm; }
 
