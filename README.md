@@ -222,4 +222,23 @@ Specifies how a box should be floated. It may be set for any element, but only a
 
 ## Making Layout and Content Adjustments for Print: Linking a CSS File for Print
 
-[@page](https://developer.mozilla.org/en-US/docs/Web/CSS/%40page)
+The @page rule lets you specify various aspects of a page box. For example, you will want to specify the dimensions of your pages. The rule below specifies a default page size of 5.5 by 8.5 inches. If you intend to print a book, perhaps by a print-on-demand service, then finding out the sizes you can use, it is important.
+
+```
+@page {
+  size: 5.5in 8.5in;
+}
+```
+
+[@page](https://developer.mozilla.org/en-US/docs/Web/CSS/%40page) | [Designing For Print With CSS](https://www.smashingmagazine.com/2015/01/designing-for-print-with-css/)
+
+
+## Making Layout and Content Adjustments for Print: Switching Our Image Tags with CSS
+
+```
+section.how-to aside:nth-child(1) div.content::before { content: url(../images/photo_seating_print.jpg); }
+
+section.how-to aside:nth-child(2) div.content::before { content: url(../images/photo_lighting_print.jpg); }
+```
+
+[:nth-child()](https://developer.mozilla.org/en-US/docs/Web/CSS/%3Anth-child) | [Useful :nth-child Recipes](https://css-tricks.com/useful-nth-child-recipies/) | [Wanna play?](https://css-tricks.com/examples/nth-child-tester/)
