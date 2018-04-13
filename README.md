@@ -242,3 +242,8 @@ section.how-to aside:nth-child(2) div.content::before { content: url(../images/p
 ```
 
 [:nth-child()](https://developer.mozilla.org/en-US/docs/Web/CSS/%3Anth-child) | [Useful :nth-child Recipes](https://css-tricks.com/useful-nth-child-recipies/) | [Wanna play?](https://css-tricks.com/examples/nth-child-tester/)
+
+
+## Making Layout and Content Adjustments for Print: Styling the Footer
+
+[::before (:before)](https://developer.mozilla.org/en-US/docs/Web/CSS/::before) | [::after (:after)](https://developer.mozilla.org/en-US/docs/Web/CSS/%3A%3Aafter)
