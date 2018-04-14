@@ -1,5 +1,6 @@
 # Creating a Responsive Web Design Web
 
+<img src="images/doc/creating-responsive-web-design-cover.png"/>
 
 ## Preparing the HTML Content and Structure - Setting up Your Project
 
@@ -247,3 +248,14 @@ section.how-to aside:nth-child(2) div.content::before { content: url(../images/p
 ## Making Layout and Content Adjustments for Print: Styling the Footer
 
 [::before (:before)](https://developer.mozilla.org/en-US/docs/Web/CSS/::before) | [::after (:after)](https://developer.mozilla.org/en-US/docs/Web/CSS/%3A%3Aafter)
+
+
+## Making Layout and Content Adjustments for Print: Setting Page Breaks with CSS
+
+```
+section.how-to { padding-top: 50px; border-top: 1px solid #ccc; page-break-inside: avoid; }
+```
+
+`page-break-inside` with `avoid`, this allows that content to print on the same page along with other items if everything will fit. And if it doesn't fit, it will add a page break before this element. 
+
+[page-break-inside](https://developer.mozilla.org/en-US/docs/Web/CSS/page-break-inside) | [page-break](https://css-tricks.com/almanac/properties/p/page-break/)

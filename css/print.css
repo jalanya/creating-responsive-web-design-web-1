@@ -69,7 +69,7 @@ section.atmosphere::before { content: url(../images/photo_lounge_print.jpg); }
 
 section.atmosphere article { width: 40%; position: absolute; top: 40px; left: 425px; }
 
-section.how-to { padding-top: 50px; border-top: 1px solid #ccc; }
+section.how-to { padding-top: 50px; border-top: 1px solid #ccc; page-break-inside: avoid; }
 
 section.how-to aside { width: 25%; float: left; margin: 0 35px 0 0; }
 
